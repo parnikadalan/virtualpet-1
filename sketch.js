@@ -6,8 +6,8 @@ var foodS, foodStock
 function preload()
 {
 	//load images here
-  dogImg = loadImage("images/dogImg.png")
-  happyDog = loadImage("images/dogImg1.png")
+  dogImg = loadImage("dogImg.png")
+  happyDog = loadImage("dogImg1.png")
 }
 
 function setup() {
@@ -25,7 +25,7 @@ function setup() {
 
 
 function draw() {  
-  background(46, 139, 87)
+  background("yellow")
 
   if(keyWentDown(UP_ARROW)){
     writeStock(foodS)
